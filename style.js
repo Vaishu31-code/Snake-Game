@@ -9,4 +9,5 @@ for(let i=0;i< row*cols;i++){
     const block=document.createElement('div');
     block.classList.add('block');
     board.appendChild(block);
+    console.log('nice')
 }
